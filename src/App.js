@@ -36,7 +36,7 @@ function App() {
 
   const newArr  =  filteredData.map((a)=>{
 
-    return (<><p style={{cursor:"pointer"}}>{a.address},{a.area},{a.city},{a.postCode}</p></>
+    return (<><p style={{cursor:"pointer"}}>{a.address},{a.area},{a.city},{a.postCode}</p><br/></>
     )
   })
 
